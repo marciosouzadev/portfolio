@@ -1,5 +1,6 @@
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
+import { site } from "@/data/site";
 
 const timeline = [
   {
@@ -21,11 +22,32 @@ export function About() {
     <section id="sobre" className="py-24 sm:py-32">
       <div className="mx-auto max-w-6xl px-6">
         <div className="grid grid-cols-1 gap-16 lg:grid-cols-[0.9fr_1.1fr]">
-          <SectionHeading
-            eyebrow="Sobre"
-            title="Aprender, construir, testar, melhorar."
-            className="max-w-md"
-          />
+          <div className="flex flex-col gap-8">
+            <SectionHeading
+              eyebrow="Sobre"
+              title="Aprender, construir, testar, melhorar."
+              className="max-w-md"
+            />
+
+            <Reveal delay={0.1} className="max-w-xs">
+              <div className="relative">
+                <div
+                  aria-hidden
+                  className="absolute -inset-4 -z-10 rounded-[2rem] bg-accent/[0.08] blur-2xl"
+                />
+                {/* eslint-disable-next-line @next/next/no-img-element -- next/image's basePath handling breaks under output: "export"; image is pre-optimized (WebP, 800x800, ~42KB) */}
+                <img
+                  src={`${site.basePath}/marcio.webp`}
+                  alt="Marcio Souza"
+                  width={800}
+                  height={800}
+                  loading="lazy"
+                  decoding="async"
+                  className="aspect-square w-full rounded-2xl border border-border object-cover"
+                />
+              </div>
+            </Reveal>
+          </div>
 
           <div className="flex flex-col gap-12">
             <Reveal delay={0.05}>
