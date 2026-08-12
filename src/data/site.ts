@@ -14,8 +14,8 @@ export const site = {
   available: true,
   links: {
     github: "https://github.com/marciosouzadev",
-    // TODO: confirmar URL real do LinkedIn
-    linkedin: "https://linkedin.com/in/marciosouzadev",
+    linkedin: "https://www.linkedin.com/in/marciosouzadev06",
+    whatsapp: "https://wa.me/5547997707872",
   },
   nav: [
     { label: "Início", href: "#inicio" },

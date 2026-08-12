@@ -1,5 +1,9 @@
 import { Mail } from "lucide-react";
-import { GithubIcon, LinkedinIcon } from "@/components/icons/SocialIcons";
+import {
+  GithubIcon,
+  LinkedinIcon,
+  WhatsappIcon,
+} from "@/components/icons/SocialIcons";
 import { site } from "@/data/site";
 import { Reveal } from "@/components/ui/Reveal";
 
@@ -31,6 +35,15 @@ export function Contact() {
             >
               <Mail size={16} />
               Enviar mensagem
+            </a>
+            <a
+              href={site.links.whatsapp}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 rounded-full border border-border-strong px-6 py-3 text-sm font-medium text-foreground transition-colors hover:border-accent/50 hover:text-accent"
+            >
+              <WhatsappIcon size={16} />
+              WhatsApp
             </a>
             <a
               href={site.links.github}

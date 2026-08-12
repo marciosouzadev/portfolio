@@ -3,7 +3,11 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Mail } from "lucide-react";
-import { GithubIcon, LinkedinIcon } from "@/components/icons/SocialIcons";
+import {
+  GithubIcon,
+  LinkedinIcon,
+  WhatsappIcon,
+} from "@/components/icons/SocialIcons";
 import { site } from "@/data/site";
 
 const links = [
@@ -64,6 +68,15 @@ export function Footer() {
               className="text-muted transition-colors hover:text-foreground"
             >
               <LinkedinIcon size={18} />
+            </a>
+            <a
+              href={site.links.whatsapp}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="WhatsApp"
+              className="text-muted transition-colors hover:text-foreground"
+            >
+              <WhatsappIcon size={18} />
             </a>
             <a
               href={`mailto:${site.email}`}
