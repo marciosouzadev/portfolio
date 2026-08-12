@@ -4,13 +4,15 @@ export const site = {
   title: "Marcio Souza — Desenvolvedor Web",
   description:
     "Portfólio de Marcio Souza. Projetos, experiências e aplicações web desenvolvidas com tecnologias modernas.",
-  // TODO: confirmar URL final de produção antes do deploy
-  url: "https://marciosouza.dev",
+  // Publicado via GitHub Pages. Se um domínio próprio (ex: marciosouza.dev) for
+  // configurado depois, atualize aqui e remova o basePath em next.config.ts.
+  url: "https://marciosouzadev.github.io/portfolio",
+  // Deve bater com o basePath em next.config.ts.
+  basePath: "/portfolio",
   email: "marciosouzadev06@gmail.com",
   location: "Curitiba, PR",
   available: true,
   links: {
-    // TODO: confirmar usuário/URL real do GitHub
     github: "https://github.com/marciosouzadev",
     // TODO: confirmar URL real do LinkedIn
     linkedin: "https://linkedin.com/in/marciosouzadev",

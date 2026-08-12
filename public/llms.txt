@@ -2,16 +2,16 @@
 
 > Portfólio de Marcio Souza, desenvolvedor web e criador de produtos digitais em Curitiba, PR. Trabalha com Next.js, React, TypeScript e Tailwind CSS, unindo desenvolvimento, produto e uma formação em Nutrição e Educação Física a caminho de Análise e Desenvolvimento de Sistemas.
 
-Este site apresenta projetos reais (SaaS, e-commerce, dashboards e experimentos web), a stack técnica utilizada e informações de contato.
+Este site apresenta projetos reais (e-commerce, SaaS, educação e experimentos web), a stack técnica utilizada e informações de contato.
 
 ## Páginas
 
-- [Início](https://marciosouza.dev/): apresentação, projetos em destaque, stack e contato.
-- [NutriClin](https://marciosouza.dev/projetos/nutriclin): plataforma de apoio à decisão clínica em suplementação para nutricionistas (Next.js, React, TypeScript, Tailwind CSS).
-- [Stock Hub Tecnologia](https://marciosouza.dev/projetos/stock-hub-tecnologia): e-commerce de smartphones e eletrônicos (Next.js, React, TypeScript, Prisma).
-- [Dashboard SEMEC](https://marciosouza.dev/projetos/dashboard-semec): dashboard de gestão administrativa (JavaScript, Firebase, Firestore).
-- [Meu Aniversário](https://marciosouza.dev/projetos/meu-aniversario): aplicação web interativa personalizada (React, Firebase).
-- [Código Aberto](https://marciosouza.dev/projetos/codigo-aberto): publicação de conteúdos sobre tecnologia e programação.
+- [Início](https://marciosouzadev.github.io/portfolio/): apresentação, projetos em destaque, stack e contato.
+- [Nivo Hub](https://marciosouzadev.github.io/portfolio/projetos/nivo-hub/): loja de smartphones novos e seminovos em Curitiba (nivohub.com.br).
+- [NutriClin](https://marciosouzadev.github.io/portfolio/projetos/nutriclin/): plataforma de apoio à decisão clínica em suplementação para nutricionistas (Next.js, React, TypeScript, Tailwind CSS).
+- [Matemática em 60s](https://marciosouzadev.github.io/portfolio/projetos/matematica-em-60s/): jogo educacional de matemática contra o tempo, com orientação técnica para alunas do 9º ano.
+- [Jornada Low FODMAP](https://marciosouzadev.github.io/portfolio/projetos/estrategia-lowfodmap/): portal educacional sobre a estratégia Low FODMAP.
+- [Rosa Branca Saboaria](https://marciosouzadev.github.io/portfolio/projetos/rosa-branca-saboaria/): site institucional de sabonetes artesanais.
 
 ## Contato
 
