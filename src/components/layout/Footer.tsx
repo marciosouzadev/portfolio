@@ -90,7 +90,7 @@ export function Footer() {
       </div>
 
       <div className="border-t border-border px-6 py-6">
-        <p className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-2 text-xs text-muted-2">
+        <p className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-2 text-center text-xs text-muted-2">
           <span>© {year} Marcio Souza. Todos os direitos reservados.</span>
           <span aria-hidden className="hidden sm:inline">
             ·
