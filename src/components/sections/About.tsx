@@ -13,7 +13,7 @@ const timeline = [
   },
   {
     label: "Hoje",
-    text: "Curso Análise e Desenvolvimento de Sistemas e construo produtos reais, unindo as duas bagagens.",
+    text: "Curso Engenharia de Software na Universidade Positivo, em Curitiba/PR, e construo produtos reais, unindo as duas bagagens.",
   },
 ];
 
@@ -54,8 +54,9 @@ export function About() {
               <p className="text-balance text-lg leading-relaxed text-muted">
                 Vim da Nutrição e da Educação Física antes de migrar para
                 tecnologia. Essa vivência com pessoas e problemas reais
-                continua presente hoje — atualmente curso Análise e
-                Desenvolvimento de Sistemas e uso essa bagagem para construir
+                continua presente hoje — atualmente curso Engenharia de
+                Software na Universidade Positivo, em Curitiba/PR, e uso essa
+                bagagem para construir
                 produtos que resolvem problemas de verdade, não só telas
                 bonitas.
               </p>

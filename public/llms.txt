@@ -1,6 +1,6 @@
 # Marcio Souza
 
-> Portfólio de Marcio Souza, desenvolvedor web e criador de produtos digitais em Curitiba, PR. Trabalha com Next.js, React, TypeScript e Tailwind CSS, unindo desenvolvimento, produto e uma formação em Nutrição e Educação Física a caminho de Análise e Desenvolvimento de Sistemas.
+> Portfólio de Marcio Souza, desenvolvedor web e criador de produtos digitais em Curitiba, PR. Trabalha com Next.js, React, TypeScript e Tailwind CSS, unindo desenvolvimento, produto e uma formação em Nutrição e Educação Física a caminho da Engenharia de Software (Universidade Positivo, Curitiba/PR).
 
 Este site apresenta projetos reais (e-commerce, SaaS, educação e experimentos web), a stack técnica utilizada e informações de contato.
 
