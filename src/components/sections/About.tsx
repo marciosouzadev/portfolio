@@ -35,7 +35,7 @@ export function About() {
                   aria-hidden
                   className="absolute -inset-4 -z-10 rounded-[2rem] bg-accent/[0.08] blur-2xl"
                 />
-                {/* eslint-disable-next-line @next/next/no-img-element -- next/image's basePath handling breaks under output: "export"; image is pre-optimized (WebP, 800x800, ~42KB) */}
+                {/* eslint-disable-next-line @next/next/no-img-element -- next/image's basePath handling breaks under output: "export"; image is pre-optimized (WebP, 800x800, ~30KB) */}
                 <img
                   src={`${site.basePath}/marcio.webp`}
                   alt="Marcio Souza"
