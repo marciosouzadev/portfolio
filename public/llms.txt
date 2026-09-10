@@ -8,7 +8,7 @@ Este site apresenta projetos reais (e-commerce, SaaS, educação e experimentos 
 
 - [Início](https://marciosouzadev.github.io/portfolio/): apresentação, projetos em destaque, stack e contato.
 - [Nivo Hub](https://marciosouzadev.github.io/portfolio/projetos/nivo-hub/): loja de smartphones novos e seminovos em Curitiba (nivohub.vercel.app).
-- [NutriClin](https://marciosouzadev.github.io/portfolio/projetos/nutriclin/): plataforma de apoio à decisão clínica em suplementação para nutricionistas (Next.js, React, TypeScript, Tailwind CSS).
+- [NutriClin](https://marciosouzadev.github.io/portfolio/projetos/nutriclin/): plataforma de apoio à decisão clínica em suplementação para nutricionistas (nutriclinsup.com.br; Next.js, React, TypeScript, Tailwind CSS).
 - [Matemática em 60s](https://marciosouzadev.github.io/portfolio/projetos/matematica-em-60s/): jogo educacional de matemática contra o tempo, com orientação técnica para alunas do 9º ano.
 - [Jornada Low FODMAP](https://marciosouzadev.github.io/portfolio/projetos/estrategia-lowfodmap/): portal educacional sobre a estratégia Low FODMAP.
 - [Rosa Branca Saboaria](https://marciosouzadev.github.io/portfolio/projetos/rosa-branca-saboaria/): site institucional de sabonetes artesanais.

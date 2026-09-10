@@ -60,8 +60,9 @@ export const projects: Project[] = [
     category: "SaaS / Health Tech",
     tags: ["Full Stack", "SaaS"],
     technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    image: "/projects/nutriclin.webp",
     github: "#",
-    demo: "#",
+    demo: "https://www.nutriclinsup.com.br/",
     featured: true,
     caseStudy: {
       problem:
