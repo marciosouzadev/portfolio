@@ -38,7 +38,7 @@ export const projects: Project[] = [
     category: "E-commerce",
     tags: ["Frontend", "E-commerce"],
     technologies: ["HTML", "CSS", "JavaScript"],
-    image: "/projects/nivo-hub.png",
+    image: "/projects/nivo-hub.webp",
     // TODO: repositório ainda não confirmado/público
     github: "#",
     demo: "https://nivohub.vercel.app/",
@@ -82,6 +82,7 @@ export const projects: Project[] = [
     category: "Educação / Jogo Web",
     tags: ["Frontend", "Experimentos"],
     technologies: ["HTML", "CSS", "JavaScript", "IA"],
+    image: "/projects/matematica.webp",
     github: "https://github.com/marciosouzadev/matematica-game60s",
     demo: "https://marciosouzadev.github.io/matematica-game60s/",
     featured: false,
