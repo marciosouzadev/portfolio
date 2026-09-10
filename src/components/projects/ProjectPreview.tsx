@@ -48,7 +48,7 @@ export function ProjectPreview({
         <img
           src={`${site.basePath}${project.image}`}
           alt={`Captura de tela do projeto ${project.title}`}
-          className="h-full w-full flex-1 object-cover object-top"
+          className="min-h-0 w-full flex-1 object-contain object-top"
         />
       </div>
     );

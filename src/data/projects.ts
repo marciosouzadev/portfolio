@@ -41,13 +41,13 @@ export const projects: Project[] = [
     image: "/projects/nivo-hub.png",
     // TODO: repositório ainda não confirmado/público
     github: "#",
-    demo: "https://nivohub.com.br/",
+    demo: "https://nivohub.vercel.app/",
     featured: true,
     caseStudy: {
       problem:
         "Uma loja de smartphones precisava de uma presença online que transmitisse confiança: procedência, revisão e garantia dos aparelhos.",
       solution:
-        "Um site com domínio próprio apresentando o catálogo por categoria (smartphones, áudio, acessórios, smartwatches) e o processo de avaliação de cada aparelho, com contato direto via Instagram e WhatsApp.",
+        "Um site apresentando o catálogo por categoria (smartphones, áudio, acessórios, smartwatches) e o processo de avaliação de cada aparelho, com contato direto via Instagram e WhatsApp.",
       contribution: "Desenvolvimento do site.",
       features: [],
     },
