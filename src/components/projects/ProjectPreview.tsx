@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import { site } from "@/data/site";
 import type { Project } from "@/data/projects";
 
 function getInitials(title: string) {
@@ -34,6 +35,25 @@ export function ProjectPreview({
   project: Project;
   className?: string;
 }) {
+  if (project.image) {
+    return (
+      <div
+        className={cn(
+          "relative flex h-full flex-col overflow-hidden rounded-xl border border-border bg-background",
+          className,
+        )}
+      >
+        <Chrome />
+        {/* eslint-disable-next-line @next/next/no-img-element -- next/image's basePath handling breaks under output: "export" */}
+        <img
+          src={`${site.basePath}${project.image}`}
+          alt={`Captura de tela do projeto ${project.title}`}
+          className="h-full w-full flex-1 object-cover object-top"
+        />
+      </div>
+    );
+  }
+
   return (
     <div
       className={cn(

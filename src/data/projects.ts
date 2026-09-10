@@ -38,6 +38,7 @@ export const projects: Project[] = [
     category: "E-commerce",
     tags: ["Frontend", "E-commerce"],
     technologies: ["HTML", "CSS", "JavaScript"],
+    image: "/projects/nivo-hub.png",
     // TODO: repositório ainda não confirmado/público
     github: "#",
     demo: "https://nivohub.com.br/",
@@ -143,6 +144,61 @@ export const projects: Project[] = [
         "Um site institucional com catálogo dos sabonetes, tamanhos e preços, e integração direta com WhatsApp para pedidos.",
       contribution: "Desenvolvimento do site institucional.",
       features: [],
+    },
+  },
+  {
+    slug: "jph-engenharia",
+    title: "JPH Engenharia",
+    description:
+      "Landing page institucional para empresa de engenharia civil, com apresentação de serviços em projetos estruturais e soluções em construção.",
+    category: "Site Institucional",
+    tags: ["Frontend", "Experimentos"],
+    technologies: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "Framer Motion",
+    ],
+    github: "https://github.com/marciosouzadev/jph-engenharia",
+    demo: "https://marciosouzadev.github.io/jph-engenharia/",
+    featured: false,
+    caseStudy: {
+      problem:
+        "Uma empresa de engenharia civil precisava de uma presença online profissional para apresentar seus serviços e transmitir credibilidade técnica.",
+      solution:
+        "Uma landing page institucional com seções de serviços, projetos de engenharia e planejamento técnico, com animações sutis e layout responsivo.",
+      contribution: "Desenvolvimento completo da landing page.",
+      features: [
+        "Apresentação de serviços em projetos estruturais e complementares",
+        "Layout responsivo com animações de entrada",
+        "Identidade visual alinhada ao segmento de engenharia civil",
+      ],
+    },
+  },
+  {
+    slug: "contabilidade-landing",
+    title: "ContaFácil",
+    description:
+      "Landing page para escritório de contabilidade, com apresentação de serviços, depoimentos, indicadores e formulário de contato.",
+    category: "Landing Page",
+    tags: ["Frontend", "Experimentos"],
+    technologies: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/marciosouzadev/contabilidade-landing",
+    demo: "https://marciosouzadev.github.io/contabilidade-landing/",
+    featured: false,
+    caseStudy: {
+      problem:
+        "Um escritório de contabilidade precisava de uma página de conversão que explicasse seus serviços de forma clara e facilitasse o primeiro contato com potenciais clientes.",
+      solution:
+        "Uma landing page completa com hero de conversão, grade de serviços, prova social, indicadores animados, depoimentos e formulário de contato integrado.",
+      contribution: "Desenvolvimento completo da landing page.",
+      features: [
+        "Seção de serviços: contabilidade geral, abertura de empresas, gestão fiscal, folha de pagamento, consultoria tributária e BPO financeiro",
+        "Indicadores animados e faixa de segmentos atendidos",
+        "Depoimentos de clientes e chamadas para ação",
+        "Formulário de contato com validação e feedback de envio",
+      ],
     },
   },
 ];
