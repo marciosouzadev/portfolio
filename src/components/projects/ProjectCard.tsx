@@ -23,12 +23,7 @@ export function ProjectCard({
       )}
     >
       <Link href={href} className="flex flex-1 flex-col">
-        <div
-          className={cn(
-            "p-3 pb-0",
-            size === "lg" ? "aspect-[16/11] sm:aspect-[16/10]" : "aspect-[16/12]",
-          )}
-        >
+        <div className="aspect-[16/10] p-3 pb-0">
           <div className="h-full w-full overflow-hidden rounded-xl transition-transform duration-500 ease-out group-hover:scale-[1.015]">
             <ProjectPreview project={project} className="h-full" />
           </div>

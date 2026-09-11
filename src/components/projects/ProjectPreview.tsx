@@ -39,16 +39,15 @@ export function ProjectPreview({
     return (
       <div
         className={cn(
-          "relative flex h-full flex-col overflow-hidden rounded-xl border border-border bg-background",
+          "relative h-full overflow-hidden rounded-xl border border-border bg-background",
           className,
         )}
       >
-        <Chrome />
         {/* eslint-disable-next-line @next/next/no-img-element -- next/image's basePath handling breaks under output: "export" */}
         <img
           src={`${site.basePath}${project.image}`}
           alt={`Captura de tela do projeto ${project.title}`}
-          className="min-h-0 w-full flex-1 object-cover object-top"
+          className="h-full w-full object-cover object-top"
         />
       </div>
     );
